@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-03T22:18:57 EET" name="Default suite" finished-at="2020-04-03T22:19:19 EET" duration-ms="22178">
+    <groups>
+    </groups>
+    <test started-at="2020-04-03T22:18:57 EET" name="Default test" finished-at="2020-04-03T22:19:19 EET" duration-ms="22178">
+      <class name="Test.RegisteredUserCheckoutProduct">
+        <test-method is-config="true" signature="startdriver(java.lang.String)[pri:0, instance:Test.RegisteredUserCheckoutProduct@1f0f1111]" started-at="2020-04-03T22:18:41 EET" name="startdriver" finished-at="2020-04-03T22:18:57 EET" duration-ms="15472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startdriver -->
+        <test-method signature="UserCanCheckOut()[pri:0, instance:Test.RegisteredUserCheckoutProduct@1f0f1111]" started-at="2020-04-03T22:18:57 EET" name="UserCanCheckOut" finished-at="2020-04-03T22:19:19 EET" duration-ms="22085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanCheckOut -->
+        <test-method is-config="true" signature="screenShotOnFailure(org.testng.ITestResult)[pri:0, instance:Test.RegisteredUserCheckoutProduct@1f0f1111]" started-at="2020-04-03T22:19:19 EET" name="screenShotOnFailure" finished-at="2020-04-03T22:19:19 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanCheckOut status=SUCCESS method=RegisteredUserCheckoutProduct.UserCanCheckOut()[pri:0, instance:Test.RegisteredUserCheckoutProduct@1f0f1111] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotOnFailure -->
+        <test-method is-config="true" signature="stopdriver()[pri:0, instance:Test.RegisteredUserCheckoutProduct@1f0f1111]" started-at="2020-04-03T22:19:19 EET" name="stopdriver" finished-at="2020-04-03T22:19:21 EET" duration-ms="1494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopdriver -->
+      </class> <!-- Test.RegisteredUserCheckoutProduct -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
